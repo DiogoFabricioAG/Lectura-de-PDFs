@@ -49,7 +49,7 @@ def main():
 def test_main():
     
        
-    file_path = f"pdfs/sexto.pdf"
+    file_path = f"pdfs/septimo.pdf"
     pdf_file_obj = read_pdf(file_path)
     page_info = read_page(pdf_file_obj, 0)
     page_info = page_info.upper()
